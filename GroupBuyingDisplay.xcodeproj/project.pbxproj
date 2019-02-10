@@ -15,6 +15,14 @@
 		0D0243AA220E45D300091BDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243A9220E45D300091BDF /* main.m */; };
 		0D0243B4220E45D300091BDF /* GroupBuyingDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243B3220E45D300091BDF /* GroupBuyingDisplayTests.m */; };
 		0D0243BF220E45D300091BDF /* GroupBuyingDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243BE220E45D300091BDF /* GroupBuyingDisplayUITests.m */; };
+		0D0243D1220E483A00091BDF /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D0243D0220E483A00091BDF /* tgs.plist */; };
+		0D0243D4220E489A00091BDF /* SCGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243D3220E489A00091BDF /* SCGroupItem.m */; };
+		0D0243D7220E4EA600091BDF /* SCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243D6220E4EA600091BDF /* SCTableViewCell.m */; };
+		0D0243E9220E54C400091BDF /* SCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0243E8220E54C400091BDF /* SCTableViewCell.xib */; };
+		0D0243EB220E9F0300091BDF /* SCFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0243EA220E9F0300091BDF /* SCFooterView.xib */; };
+		0D0243EE220EA29F00091BDF /* SCFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0243ED220EA29F00091BDF /* SCFooterView.m */; };
+		0DC08323220FBF5F00F0B12B /* SCHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DC08322220FBF5F00F0B12B /* SCHeaderView.xib */; };
+		0DC08326220FC0B300F0B12B /* SCHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC08325220FC0B300F0B12B /* SCHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		0D0243BA220E45D300091BDF /* GroupBuyingDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupBuyingDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0243BE220E45D300091BDF /* GroupBuyingDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyingDisplayUITests.m; sourceTree = "<group>"; };
 		0D0243C0220E45D300091BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0243D0220E483A00091BDF /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		0D0243D2220E489A00091BDF /* SCGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGroupItem.h; sourceTree = "<group>"; };
+		0D0243D3220E489A00091BDF /* SCGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGroupItem.m; sourceTree = "<group>"; };
+		0D0243D5220E4EA600091BDF /* SCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTableViewCell.h; sourceTree = "<group>"; };
+		0D0243D6220E4EA600091BDF /* SCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTableViewCell.m; sourceTree = "<group>"; };
+		0D0243E8220E54C400091BDF /* SCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCTableViewCell.xib; sourceTree = "<group>"; };
+		0D0243EA220E9F0300091BDF /* SCFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCFooterView.xib; sourceTree = "<group>"; };
+		0D0243EC220EA29F00091BDF /* SCFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFooterView.h; sourceTree = "<group>"; };
+		0D0243ED220EA29F00091BDF /* SCFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFooterView.m; sourceTree = "<group>"; };
+		0DC08322220FBF5F00F0B12B /* SCHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHeaderView.xib; sourceTree = "<group>"; };
+		0DC08324220FC0B300F0B12B /* SCHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHeaderView.h; sourceTree = "<group>"; };
+		0DC08325220FC0B300F0B12B /* SCHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +121,12 @@
 		0D024399220E45D100091BDF /* GroupBuyingDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				0D02439A220E45D100091BDF /* AppDelegate.h */,
-				0D02439B220E45D100091BDF /* AppDelegate.m */,
-				0D02439D220E45D100091BDF /* ViewController.h */,
-				0D02439E220E45D100091BDF /* ViewController.m */,
-				0D0243A0220E45D100091BDF /* Main.storyboard */,
+				0D0243CF220E45F900091BDF /* Controllers */,
+				0D0243CE220E45F200091BDF /* Models */,
+				0D0243CD220E45EA00091BDF /* Views */,
+				0D0243CC220E45DE00091BDF /* Others */,
+				0D0243D0220E483A00091BDF /* tgs.plist */,
 				0D0243A3220E45D300091BDF /* Assets.xcassets */,
-				0D0243A5220E45D300091BDF /* LaunchScreen.storyboard */,
 				0D0243A8220E45D300091BDF /* Info.plist */,
 				0D0243A9220E45D300091BDF /* main.m */,
 			);
@@ -130,6 +149,51 @@
 				0D0243C0220E45D300091BDF /* Info.plist */,
 			);
 			path = GroupBuyingDisplayUITests;
+			sourceTree = "<group>";
+		};
+		0D0243CC220E45DE00091BDF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D02439A220E45D100091BDF /* AppDelegate.h */,
+				0D02439B220E45D100091BDF /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0D0243CD220E45EA00091BDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D0243A0220E45D100091BDF /* Main.storyboard */,
+				0D0243A5220E45D300091BDF /* LaunchScreen.storyboard */,
+				0D0243D5220E4EA600091BDF /* SCTableViewCell.h */,
+				0D0243D6220E4EA600091BDF /* SCTableViewCell.m */,
+				0D0243E8220E54C400091BDF /* SCTableViewCell.xib */,
+				0D0243EA220E9F0300091BDF /* SCFooterView.xib */,
+				0D0243EC220EA29F00091BDF /* SCFooterView.h */,
+				0D0243ED220EA29F00091BDF /* SCFooterView.m */,
+				0DC08322220FBF5F00F0B12B /* SCHeaderView.xib */,
+				0DC08324220FC0B300F0B12B /* SCHeaderView.h */,
+				0DC08325220FC0B300F0B12B /* SCHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D0243CE220E45F200091BDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D0243D2220E489A00091BDF /* SCGroupItem.h */,
+				0D0243D3220E489A00091BDF /* SCGroupItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D0243CF220E45F900091BDF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D02439D220E45D100091BDF /* ViewController.h */,
+				0D02439E220E45D100091BDF /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +258,7 @@
 		0D02438F220E45D100091BDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -235,7 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0243E9220E54C400091BDF /* SCTableViewCell.xib in Resources */,
+				0D0243EB220E9F0300091BDF /* SCFooterView.xib in Resources */,
 				0D0243A7220E45D300091BDF /* LaunchScreen.storyboard in Resources */,
+				0DC08323220FBF5F00F0B12B /* SCHeaderView.xib in Resources */,
+				0D0243D1220E483A00091BDF /* tgs.plist in Resources */,
 				0D0243A4220E45D300091BDF /* Assets.xcassets in Resources */,
 				0D0243A2220E45D100091BDF /* Main.storyboard in Resources */,
 			);
@@ -262,9 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC08326220FC0B300F0B12B /* SCHeaderView.m in Sources */,
 				0D02439F220E45D100091BDF /* ViewController.m in Sources */,
 				0D0243AA220E45D300091BDF /* main.m in Sources */,
+				0D0243D7220E4EA600091BDF /* SCTableViewCell.m in Sources */,
+				0D0243D4220E489A00091BDF /* SCGroupItem.m in Sources */,
 				0D02439C220E45D100091BDF /* AppDelegate.m in Sources */,
+				0D0243EE220EA29F00091BDF /* SCFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
